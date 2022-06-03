@@ -1,0 +1,105 @@
+.form {
+    width: 300px;
+    max-width: 200px;
+    margin:  auto;
+    background-color: rgb(245, 243, 243);
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    font-size: 12px;
+    border-color: white;
+    
+  }
+  
+  .formResponse {
+    width: 300px;
+    max-width: 200px;
+    margin:  auto;
+    background-color: rgb(243, 148, 222); 
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    font-size: 15px;
+    border-color: white;
+    
+  }
+  
+  .formResponse2 {
+    width: 300px;
+    max-width: 200px;
+    margin:  auto;
+    background-color: rgb(243, 148, 222); 
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    font-size: 13px;
+    border-color: white;
+    
+  }
+  .form input {
+    width: 180px;
+    height: 20px;
+    border-color: white;
+    padding: 0px;
+    margin: 0rem;
+    background-color: rgb(245, 243, 243);
+    
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+
+  .section{
+    width: 300px;
+    height: 60px;
+    background-color: rgb(243, 148, 222); 
+    font-size: 12px;
+    
+  }
+  .img-izq{
+    position: absolute; 
+    top: 90px; 
+    left: 619px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    
+    
+  }
+  .img-izq-2{
+    position: absolute; 
+    top: 30px; 
+    left: 619px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    
+    
+  }
+
+  .button-iniciar{
+    border-radius: 10px;    
+    font-size: 16px;
+    background-color: rgb(243, 148, 222);
+    border: 1px solid rgb(238, 210, 233);
+    width: 300px;
+    max-width: 200px;
+  }
+
+  .button-iniciar:hover {background-color: rgb(238, 210, 233)}
+
+.button-iniciar:active {
+  background-color: rgb(238, 210, 233);
+  box-shadow: 0 5px rgba(204, 202, 202, 0.13);
+  transform: translateY(4px);
+  width: 300px;
+  max-width: 200px;
+}
